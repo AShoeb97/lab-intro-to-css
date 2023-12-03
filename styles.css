@@ -1,36 +1,41 @@
-h1 {
+h1{
     font-family: fantasy;
+    font-weight: bold;
     color: purple;
-    font-size: 30px;
+}
+
+h1{
+    background-color: orange; 
+    opacity: .40;
+    border-radius: 10px;
+    border: solid 1px orchid
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
 }
 
-ol {
+ol{
     font-weight: bold;
 }
 
-li {
-    text-align: center;
-    border: 1px solid red;
-    border-radius: 10px;
-    background-color: lightpink;
+li{
+    text-align: center;;
+    border-radius: 25px;
+    border: solid 1px red;
     color: blue;
-    padding-left: 30px;
+    background-color: lightpink;
 }
 
-img {
+img{
     height: 200px;
-    margin-left: 625px;
-    
-    
+    width: 200px;
+    padding-left: 30px;
+    border: solid 2px lightpink
 }
 
-body {
+body{
     font-family: sans-serif;
-    background-color: burlywood;
 }
 
 h3{
@@ -40,6 +45,20 @@ h3{
 p{
     padding-top: 20px;
     padding-bottom: 20px;
+    font-style: italic;
+    
 }
 
+h1{
+    font-size: 30px;
+}
 
+ul, ol{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2{
+    text-decoration: overline underline;
+    color:blueviolet
+}
